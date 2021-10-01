@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c90a1b2f-5b9d-4d9e-be1b-b0ecf86e255b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_classrooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_30_073631_create_classrooms_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_students_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_30_073617_create_students_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632924966964</updated>
       <workItem from="1632924971105" duration="289000" />
-      <workItem from="1632925295570" duration="4893000" />
+      <workItem from="1632925295570" duration="6114000" />
     </task>
     <servers />
   </component>

@@ -255,6 +255,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6">
+
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
+                            <!-- small card -->
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                                    <p>Bounce Rate</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-stats-bars"></i>
+                                </div>
+                                <a href="#" class="small-box-footer">
+                                    More info <i class="fas fa-arrow-circle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ./col -->
+
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
