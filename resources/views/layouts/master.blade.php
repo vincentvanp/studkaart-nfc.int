@@ -251,91 +251,62 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- /.content-header -->
 
         <!-- Main content -->
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">DataTable with minimal features & hover style</h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th>Rendering engine</th>
+                        <th>Browser</th>
+                        <th>Platform(s)</th>
+                        <th>Engine version</th>
+                        <th>CSS grade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
 
-                        <!-- ./col -->
-                        <div class="col-lg-3 col-6">
-                            <!-- small card -->
-                            <div class="small-box bg-success">
-                                <div class="inner">
-                                    <h3>53<sup style="font-size: 20px">%</sup></h3>
+                    <tr>
+                        <td>Tridsdcent</td>
+                        <td>Intergernet
+                            Explorer 4.0
+                        </td>
+                        <td>Wizgrrn 95+</td>
+                        <td> 4</td>
+                        <td>X</td>
+                    </tr>
 
-                                    <p>Bounce Rate</p>
-                                </div>
-                                <div class="icon">
-                                    <i class="ion ion-stats-bars"></i>
-                                </div>
-                                <a href="#" class="small-box-footer">
-                                    More info <i class="fas fa-arrow-circle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- ./col -->
+                    <tr>
+                        <td>Trifezdent</td>
+                        <td>Intfzeernet
+                            Explorer 4.0
+                        </td>
+                        <td>Wiefzfen 95+</td>
+                        <td> 4</td>
+                        <td>X</td>
+                    </tr>
 
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                    <tr>
+                        <td>ZZZZZ</td>
+                        <td>Internzefezet
+                            Explorer 4.0
+                        </td>
+                        <td>Win ezfezf95+</td>
+                        <td> fzeefz4</td>
+                        <td>X</td>
+                    </tr>
 
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
 
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
 
-                        <div class="card card-primary card-outline">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's
-                                    content.
-                                </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div><!-- /.card -->
-                    </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="m-0">Featured</h5>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Special title treatment</h6>
-
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-
-                        <div class="card card-primary card-outline">
-                            <div class="card-header">
-                                <h5 class="m-0">Featured</h5>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Special title treatment</h6>
-
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                </div>
-                <!-- /.row -->
-            </div><!-- /.container-fluid -->
+                    </tfoot>
+                </table>
+            </div>
+            <!-- /.card-body -->
         </div>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+        <!-- /.card -->
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -357,11 +328,20 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
     </footer>
 </div>
+</div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
+<script src="../../../node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../../../node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../../../node_modules/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+
 
 <!-- jQuery -->
-<script src="asset('js/app.js')"></script>
+<script src="../../js/app.js"></script>
+
+
+
+
 </body>
 </html>
